@@ -29,6 +29,8 @@
 
   --color-heading: var(--vt-c-text-dark-1);
   --color-text: var(--vt-c-text-dark-2);
+
+  --primary-color: #a200ff;
 }
 
 *,
