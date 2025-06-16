@@ -1,45 +1,54 @@
-# gqs-codex-systems
+# Projeto UC Gestão e Qualidade de Software – Adoção de Práticas DevOps na Codex Systems
 
-This template should help get you started developing with Vue 3 in Vite.
+## 👥 Integrantes do Grupo
 
-## Recommended IDE Setup
+- Guilherme Guimarães Nascimento - 62122082  
+- Luiz Otávio Dinz Carvalho - 62116468  
+- Renan Natalino de Souza - 62122847 
+- Yago Henrique - 62122069
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🎓 Contextualização do Projeto
 
-## Type Support for `.vue` Imports in TS
+Este projeto foi desenvolvido como parte da disciplina de **Gestão e Qualidade de Software** do curso de **Sistemas de Informação**, com o objetivo de propor soluções práticas para um cenário realista relacionado a desafios na área de tecnologia da informação.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🧩 Tema do Trabalho
 
-## Customize configuration
+O estudo de caso tem como base a empresa fictícia **Codex Systems**, uma empresa de médio porte localizada em **Belo Horizonte**, especializada no desenvolvimento de sistemas sob demanda para o **setor jurídico**.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+A empresa atua há mais de **12 anos no mercado**, com uma equipe composta por **desenvolvedores**, **analistas de negócios** e **testadores**. Sua comunicação interna é feita majoritariamente por **e-mail** e **reuniões semanais**, e os ciclos de entrega de software são **longos**, com **lançamentos trimestrais**.
 
-## Project Setup
+## ⚠️ Problema Apresentado
 
-```sh
-npm install
-```
+Nos últimos dois anos, a Codex Systems começou a enfrentar **perdas de contratos importantes**, motivadas por:
 
-### Compile and Hot-Reload for Development
+- ⏱️ Demora nas atualizações dos sistemas  
+- 🐞 Falhas recorrentes nas entregas  
+- 📉 Baixo nível de satisfação dos clientes  
 
-```sh
-npm run dev
-```
+Embora a empresa tenha investido em **cursos pontuais** para a equipe, a **cultura organizacional ainda é muito departamentalizada e resistente a mudanças**.
 
-### Type-Check, Compile and Minify for Production
+Além disso, o ambiente atual apresenta os seguintes desafios técnicos:
 
-```sh
-npm run build
-```
+- ❌ Ausência de **automação de testes**  
+- ❌ Falta de **práticas estruturadas de revisão de código**  
+- ❌ Equipe **sem experiência consolidada em metodologias ágeis ou DevOps**
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## 🚀 Proposta de Solução
 
-```sh
-npm run test:unit
-```
+O objetivo principal deste trabalho é sugerir um conjunto de **boas práticas DevOps** que possam ser implementadas na Codex Systems para:
 
-### Lint with [ESLint](https://eslint.org/)
+- 🔗 Aumentar a integração entre as equipes  
+- ⚡ Melhorar a agilidade nas entregas  
+- ✅ Garantir maior qualidade nas versões disponibilizadas aos clientes  
+- 📉 Reduzir o número de falhas nas entregas  
 
-```sh
-npm run lint
-```
+Entre os pontos abordados no projeto, destacam-se:
+
+- ✅ Adoção de **Integração Contínua (CI)** e **Entrega Contínua (CD)**  
+- ✅ Implementação de **pipeline de automação de testes**  
+- ✅ Definição de um fluxo de trabalho baseado em **práticas ágeis**  
+- ✅ Sugestões para mudanças na **cultura organizacional**, visando **quebrar silos** e estimular a **colaboração entre os times**
+
+## 📝 Considerações Finais
+
+Este trabalho visa não apenas apresentar soluções técnicas, mas também propor **mudanças de mindset** e **adaptações culturais** que sejam viáveis para uma empresa em processo de transição para o modelo **DevOps**.
