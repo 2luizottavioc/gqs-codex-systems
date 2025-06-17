@@ -1,4 +1,3 @@
-// tests/visitCounterService.test.ts
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import {
   incrementVisitCount,
@@ -8,7 +7,6 @@ import {
 
 describe('visitCounterService', () => {
   beforeEach(() => {
-    // Simula localStorage limpo antes de cada teste
     const store: Record<string, string> = {}
     vi.stubGlobal('localStorage', {
       getItem: vi.fn((key: string) => store[key] ?? null),
@@ -26,17 +24,17 @@ describe('visitCounterService', () => {
     })
   })
 
-  it('deve retornar 0 se não houver valor salvo', () => {
+  it('Deve retornar 0 se não houver valor salvo', () => {
     expect(getVisitCount()).toBe(0)
   })
 
-  it('deve incrementar a contagem de visitas', () => {
+  it('Deve incrementar a contagem de visitas', () => {
     expect(incrementVisitCount()).toBe(1)
     expect(incrementVisitCount()).toBe(2)
     expect(getVisitCount()).toBe(2)
   })
 
-  it('deve resetar a contagem', () => {
+  it('Deve resetar a contagem', () => {
     incrementVisitCount()
     incrementVisitCount()
     resetVisitCount()
